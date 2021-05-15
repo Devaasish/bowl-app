@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="App which has bowling tips and tricks by Kapil Dev">
+    <title>Bowl-App</title>
+    <link rel="icon" href="ball.png">
+    <link rel="shortcut-icon" href="ball.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Learn Bowling with Kapil Dev</h1>
+        <img src="mainImg.png" alt="Kapil Dev" draggable="false">
+        <button id="next-btn">Next</button>
+    </div>
+</body>
+<script>
+    let nextBtn = document.getElementById("next-btn");
+
+    nextBtn.addEventListener("click", ()=>{
+        window.location.href = "choose-type.html";
+    });
+</script>
+</html>
